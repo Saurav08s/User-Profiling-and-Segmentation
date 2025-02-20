@@ -18,10 +18,10 @@ The **User Profiling and Segmentation** project aims to analyze user behavior, c
 The dataset used for this project contains the following key attributes:
 
 - **User ID**: Unique identifier for each user.
-- **Demographics**: Age, Gender, Location, Income, etc.
-- **Behavioral Data**: Purchase history, website visits, engagement metrics.
+- **Demographics**: Age, Gender, Location, Income Level, Education Level.
+- **Behavioral Data**: Purchase history, website visits, engagement metrics, time spent online (weekday & weekend).
 - **Subscription Details**: Membership type, renewal status, usage frequency.
-- **Other Contextual Features**: Interests, preferences, and device type.
+- **Other Contextual Features**: Interests, preferences, device type.
 
 ---
 
@@ -44,8 +44,17 @@ The dataset used for this project contains the following key attributes:
 - Encoding categorical features
 - Scaling numerical attributes
 
+### **Exploratory Data Analysis (EDA):**
+- Distribution analysis of demographic attributes (Age, Gender, Education Level, Income Level)
+- Behavioral trends (Device Usage, Time Spent Online, Ad Interaction, Click-Through Rates, Likes & Reactions)
+- Most common user interests analysis
+
 ### **Segmentation Techniques:**
 - **K-Means Clustering**
+
+### **Evaluation Metrics:**
+- **Elbow Method for optimal cluster selection**
+- **Cluster Distribution Analysis**
 
 ---
 
@@ -69,3 +78,4 @@ The dataset used for this project contains the following key attributes:
 - **Integrating real-time user profiling.**
 - **Applying deep learning models for enhanced segmentation.**
 - **Deploying the model as a web-based analytics dashboard.**
+
